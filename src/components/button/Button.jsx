@@ -1,5 +1,5 @@
 import getButtonStyling from "./getButtonStyleType";
-function Button({text,buttonType,styleType,onClickHandler}){ // destructuring props
+function Button({text,buttonType='button',styleType,onClickHandler}){ // destructuring props
     
     return(
         <button
